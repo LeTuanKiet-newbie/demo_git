@@ -10,3 +10,7 @@ B2: tạo ra commit để ghi chú lại sự thay đổi code chúng ta dùng l
 
 
 B3: đẩy code từ local repo lên remote repo để lưu trữ, lần đầu sẽ dùng lệnh git push -u origin  + tên nhánh, những lần sau chỉ cần dùng git push origin
+
+B4: để clone lại 1 repo, ta bấm vào nút Code của repo, sau đó copy api HTTPS, sau đó sử dụng lệnh git clone kèm theo đường dẫn vừa mới copy
+
+khi đi làm ta muốn test qua 1 số chức năng mới, nhưng sợ ảnh hưởng tới các đoạn code cũ đang có, ta sẽ commit lại đoạn code đó và chỉnh sửa, nếu muốn quay về vị trí commit đó khi lỗi ta có thể dùng lệnh git stash
